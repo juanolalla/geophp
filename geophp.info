@@ -1,3 +1,4 @@
 name = geoPHP
-description = Wraps the geoPHP library: advanced geometry operations in PHP
-core = 7.x
+description = Wraps the geoPHP library: advanced geometry operations in PHP.
+backdrop = 1.x
+type = module
