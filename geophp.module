@@ -20,7 +20,7 @@ function geophp_load() {
     
     if (module_exists('libraries')) {
       $path = libraries_get_path('geoPHP');
-      $file = DRUPAL_ROOT . '/' . $path . '/geoPHP.inc';
+      $file = BACKDROP_ROOT . '/' . $path . '/geoPHP.inc';
       if (file_exists($file) && $static_cache !== TRUE) {
         include_once($file);
         $already_found = TRUE;
