@@ -1,5 +1,7 @@
 geoPHP
-=============
+======
+
+Backdrop port of the Drupal 7 module [geoPHP](https://www.drupal.org/project/geophp).
 
 Provides integration with the geoPHP library: https://geoPHP.net
 
